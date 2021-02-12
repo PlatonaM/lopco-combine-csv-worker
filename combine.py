@@ -84,7 +84,7 @@ for file in output_files:
     os.remove("{}/{}".format(data_cache_path, file))
 
 with open("{}/{}".format(data_cache_path, output_file), "r") as file:
-    line_count = 1
+    line_count = 0
     for x in range(5):
         print(file.readline().strip())
         line_count += 1
