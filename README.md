@@ -12,7 +12,7 @@ Combine multiple CSV files into one CSV file.
 
 Type: multiple
 
-`source_file`: CSV file to be added to result CSV file.
+_(dynamic)_ `source_file` / _(user defined via GUI)_ `_{number}_source_file`: CSV file to be added to result CSV file.
 
 ### Outputs
 
