@@ -1,4 +1,26 @@
-#### Description
+## lopco-combine-csv-worker
+
+Combine multiple CSV files into one CSV file.
+
+### Configuration
+
+`delimiter`: Delimiter used in the CSV file.
+
+`time_column`: Name of column containing timestamps.
+
+### Inputs
+
+Type: multiple
+
+`source_file`: CSV file to be added to result CSV file.
+
+### Outputs
+
+Type: single
+
+`output_csv`: Result CSV file.
+
+### Description
 
     {
         "name": "Combine CSV",
